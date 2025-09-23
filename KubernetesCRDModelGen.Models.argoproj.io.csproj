@@ -2,5 +2,6 @@
   <PropertyGroup>
     <PackageId>KubernetesCRDModelGen.Models.argoproj.io</PackageId>
     <RepositoryUrl>https://github.com/IvanJosipovic/KubernetesCRDModelGen.Models.argoproj.io</RepositoryUrl>
+    <Description>C# models for Kubernetes CRDs in group argoproj.io</Description>
   </PropertyGroup>
 </Project>

@@ -404,11 +404,11 @@ public partial class V1alpha1ApplicationOperationSyncSourceKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -822,11 +822,11 @@ public partial class V1alpha1ApplicationOperationSyncSourcesKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -1426,11 +1426,11 @@ public partial class V1alpha1ApplicationSpecSourceKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -1841,11 +1841,11 @@ public partial class V1alpha1ApplicationSpecSourceHydratorDrySourceKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -2295,11 +2295,11 @@ public partial class V1alpha1ApplicationSpecSourcesKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -2907,11 +2907,11 @@ public partial class V1alpha1ApplicationStatusHistorySourceKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -3322,11 +3322,11 @@ public partial class V1alpha1ApplicationStatusHistorySourcesKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -3854,11 +3854,11 @@ public partial class V1alpha1ApplicationStatusOperationStateOperationSyncSourceK
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -4272,11 +4272,11 @@ public partial class V1alpha1ApplicationStatusOperationStateOperationSyncSources
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -4878,11 +4878,11 @@ public partial class V1alpha1ApplicationStatusOperationStateSyncResultSourceKust
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -5293,11 +5293,11 @@ public partial class V1alpha1ApplicationStatusOperationStateSyncResultSourcesKus
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -5860,11 +5860,11 @@ public partial class V1alpha1ApplicationStatusSourceHydratorCurrentOperationSour
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -6348,11 +6348,11 @@ public partial class V1alpha1ApplicationStatusSourceHydratorLastSuccessfulOperat
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -6900,11 +6900,11 @@ public partial class V1alpha1ApplicationStatusSyncComparedToSourceKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -7315,11 +7315,11 @@ public partial class V1alpha1ApplicationStatusSyncComparedToSourcesKustomize
     [JsonPropertyName("labelWithoutSelector")]
     public bool? LabelWithoutSelector { get; set; }
 
-    /// <summary>NamePrefix is a prefix appended to resources for Kustomize apps</summary>
+    /// <summary>NamePrefix overrides the namePrefix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("namePrefix")]
     public string? NamePrefix { get; set; }
 
-    /// <summary>NameSuffix is a suffix appended to resources for Kustomize apps</summary>
+    /// <summary>NameSuffix overrides the nameSuffix in the kustomization.yaml for Kustomize apps</summary>
     [JsonPropertyName("nameSuffix")]
     public string? NameSuffix { get; set; }
 
@@ -7508,6 +7508,7 @@ public partial class V1alpha1ApplicationStatus
 
     /// <summary>
     /// ObservedAt indicates when the application state was updated without querying latest git state
+    /// 
     /// Deprecated: controller no longer updates ObservedAt field
     /// </summary>
     [JsonPropertyName("observedAt")]

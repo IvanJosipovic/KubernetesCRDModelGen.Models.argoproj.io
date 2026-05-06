@@ -31431,6 +31431,20 @@ public partial class V1alpha1ApplicationSetStatusConditions
 
 [global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+public partial class V1alpha1ApplicationSetStatusHealth
+{
+    [JsonPropertyName("lastTransitionTime")]
+    public DateTime? LastTransitionTime { get; set; }
+
+    [JsonPropertyName("message")]
+    public string? Message { get; set; }
+
+    [JsonPropertyName("status")]
+    public string? Status { get; set; }
+}
+
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1alpha1ApplicationSetStatusResourcesHealth
 {
     [JsonPropertyName("lastTransitionTime")]
@@ -31490,6 +31504,9 @@ public partial class V1alpha1ApplicationSetStatus
 
     [JsonPropertyName("conditions")]
     public IList<V1alpha1ApplicationSetStatusConditions>? Conditions { get; set; }
+
+    [JsonPropertyName("health")]
+    public V1alpha1ApplicationSetStatusHealth? Health { get; set; }
 
     [JsonPropertyName("resources")]
     public IList<V1alpha1ApplicationSetStatusResources>? Resources { get; set; }
